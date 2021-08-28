@@ -1,0 +1,2278 @@
+/*
+Theme Name: BEST TEMPLATE | 7SKY GLOBAL SOLUTION
+Author: Ferrol Azki, Nadhif Annaufal, Muhammad Iftikharul
+Author URI: http://localhost/wordpress/wordpress/theme/templatesky
+Version: 0.1
+Description: Tema ini untuk belajar membuat tema dari nol. Saat ini isinya masih sedikit karena masih dasar. Insa’allah nanti akan menjadi makin banyak.
+*/
+@font-face {
+  font-family: abeezee;
+  src: url(font/ABeeZee-Regular.ttf);
+}
+@font-face {
+  font-family: gaegu;
+  src: url(font/Gaegu-Bold.ttf);
+}
+
+
+/* Ferrol Azki */
+body{
+    width:100%;
+	background-color:#FFC058;
+}
+.logo{
+	margin-left: 130px;
+}
+.welcome{
+    width:100%;
+	background-color:#F9E0B7;
+    margin-top:-46px;
+}
+.text-welcome{
+	font-size:30px;
+	margin-left:30px;
+	font-style: bold;
+	margin-top: 50px;
+}
+
+.des-text-w{
+	font-size: 18px;
+	margin-left:30px;
+	margin-bottom:100px;
+	font-style: bold;	
+}
+.jelahi-sekarang{
+    margin-left:20px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+}
+.jelahi-sekarang:hover{
+	color:white;
+}
+.btn-custom{
+	background-color:#0C2241;
+	width: 190px;
+}
+.kotak{
+	background-color:#E7E7E7;
+	width:350px;
+	height:350px;
+    margin-left: 90px;
+	margin-top:50px;
+	border-radius: 10px;
+}
+.kotak2 img{
+	width:350px;
+	height:350px;
+	margin-top:-310px;
+	margin-left:60px;
+	border-radius: 10px;
+}
+.wave img{
+	width :100%;
+	height:194px;
+	position:absolute;
+	z-index:-1;
+	margin-top:-50px;
+}
+
+
+
+/*  About Us */
+
+.about-us{
+	margin-bottom: 80px;
+    text-align:center;
+}
+.about-us h1{
+    margin-top:300px;
+    text-align:center;
+	font-size: 45px;
+}
+.about-us .garis{
+	border-bottom: 3px solid black;
+	width:80px;
+	color: black;
+	height: 0px;
+	margin-left:200px;
+	margin-top:20px;
+}
+.about-us .text-about-us{
+	width: 385px;
+	margin-top: 30px;
+	margin-left: 60px;
+	font-family: abeezee;
+	font-size: 20px;
+	text-align: center;
+}
+.about-us .btn-custom{
+	background-color:#0C2241;
+	width: 130px;
+}
+.detail-about-us{
+	margin-left:0px;
+	margin-top:30px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+	
+}
+.detail-about-us:hover{
+	color:white;
+}
+
+/* masalah */
+
+.masalah{
+	font-family: gaegu;
+	margin-top: 150px;
+	margin-bottom: 90px;
+}
+.kopi{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width:90%;
+	margin-left:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+}
+.kopi img{
+	border-radius:5px;
+	width: 108px;
+	height: 71px;
+	margin-left:30px;
+	margin-top:10px;
+}
+.kopi p{
+	margin-left: 160px;
+	font-size:18px;
+	margin-top:-59px;
+    width: 250px;
+}
+.fotokopi{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width: 90%;
+	margin-left:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+	margin-top: 60px;
+}
+.fotokopi img{
+	border-radius:5px;
+	width: 108px;
+	height: 71px;
+	margin-left:298px;
+	margin-top:10px;
+}
+.fotokopi p{
+	margin-left: 0px;
+	font-size:18px;
+	margin-top:-60px;
+	margin-left:40px;
+    width:250px;
+}
+.kecewa{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width: 90%;
+	margin-left:30px;
+	margin-top: 60px;
+	padding-top:20px;
+	padding-bottom:10px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+}
+.kecewa img{
+	border-radius:5px;
+	width: 140px;
+	height: 70px;
+	margin-left:30px;
+	margin-top:10px;
+}
+.kecewa p{
+	margin-left:190px;
+	font-size:18px;
+	margin-top:-60px;
+	width: 230px;
+}
+
+
+/* PMT */
+
+.pmt{
+    width:100%;
+	background-color:#FFCF80;
+	padding-top:12px;
+	padding-bottom:40px;
+    text-align:center;
+}
+.pmt .kotak{
+	background-color:#E5C0A6;
+	width:350px;
+	height:350px;
+	margin-left: 0px;
+	margin-top:50px;
+	border-radius: 10px;
+}
+.pmt img{
+	width:350px;
+	height:350px;
+	margin-top:-310px;
+	margin-left:30px;
+	border-radius: 10px;
+	
+}
+.j-pmt{
+	font-size:28px;
+	margin-top: 55px;
+	margin-left:0px;
+}
+.text-pmt{
+	 margin-left:0px;
+	 font-family: abeezee;
+	 font-size:18px;
+	 width: 400px;
+	 margin-top:30px;
+}
+.pmt .btn-custom{
+	background-color:#0C2241;
+	width: 130px;
+}
+.detail-pmt{
+	margin-left:0px;
+	margin-top:30px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+}
+.detail-pmt:hover{
+	color:white;
+}
+
+/* Testimoni */
+
+.testimoni{
+    width:100%;
+	background-color:#FFB482;
+	text-align:center;
+	padding-bottom: 70px;
+}
+.testimoni h1{
+	font-size:25px;
+	text-align:center;
+	padding-top:60px;
+	margin-bottom:50px;
+}
+.testimoni-1{
+	width:280px;
+	height: 300px;
+	margin-left:100px;
+	border-radius: 10px;
+	background-color:#FC8334;
+	color: white;
+}
+.default-user{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:-50px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+
+/* Testimonial kotak 1 */
+.testimoni-1 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-1 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-1 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+	
+}
+.testimoni-1 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+
+/* end Testimonial kotak 1*/
+
+/* Testimonial kotak 2 */
+.testimoni-2{
+	width:280px;
+	height: 300px;
+	margin-left:100px;
+	border-radius: 10px;
+	background-color:#FF6F11;
+	color: white;
+}
+.default-user-2{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:-50px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+.testimoni-2 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-2 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-2 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+}
+.testimoni-2 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+/* end Testimonial kotak 2 */
+
+/* Testimonial kotak 3 */
+
+.testimoni-3{
+	width:280px;
+	height: 300px;
+	margin-left:100px;
+	border-radius: 10px;
+	background-color:#FC8334;
+	color: white;
+}
+.default-user-3{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:-50px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+.testimoni-3 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-3 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-3 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+}
+.testimoni-3 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+
+/* end Testimonial kotak 3 */
+
+/* Gelombang akhir */
+
+.end-wave img{
+	width :100%;
+	height:194px;
+	margin-top: 200px;
+}
+.end-wave .kotak{
+	width :100%;
+	height:100px;
+	margin-left:0;
+	margin-top:-1px;
+	border-radius:0;
+	background-color:#F9E0B7;
+}
+
+/* end Gelombang akhir */
+
+
+
+
+/* end Ferrol Azki */
+
+
+/* Azhar Nadhif */
+
+/* testimini kotak 4 */
+.testimoni-4 {
+  width: 280px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-4 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -50px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-4 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-4 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-4 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-4 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+/* end testimoni kotak 4 */
+
+/* testimoni kotak 5 */
+
+.testimoni-5 {
+  width: 280px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #ff6f11;
+  color: white;
+}
+.default-user-5 {
+  background-color: white;
+  margin-top: -40px;
+  margin-left: -50px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-5 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-5 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-5 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-5 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 5 */
+
+/* testimoni kotak 6 */
+
+.testimoni-6 {
+  width: 280px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-6 {
+  background-color: white;
+  margin-top: -40px;
+  margin-left: -50px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-6 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-6 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-6 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-6 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 6 */
+
+/* testimoni kotak 7 */
+
+.testimoni-7 {
+  width: 280px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-7 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -50px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-7 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-7 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-7 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-7 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 7 */
+
+/* testimoni kotak 8 */
+
+.testimoni-8 {
+  width: 280px;
+  height: 300px;
+  margin-left:100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #ff6f11;
+  color: white;
+}
+.default-user-8 {
+  background-color: white;
+  margin-top: -40px;
+  margin-left: -50px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-8 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-8 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-8 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-8 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 8 */
+
+/* testimoni kotak 9 */
+
+.testimoni-9 {
+  width: 280px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-9 {
+  background-color: white;
+  margin-top: -40px;
+  margin-left: -50px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-9 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-9 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-9 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-9 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 9 */
+
+/* persuasif */
+
+.persuasif{
+    text-align:center;
+}
+
+.persuasif .hape{
+	margin-top: 110px;
+    width:473px;
+    height:473px;
+    margin-left: -10px;
+}
+
+.persuasif .p1,
+.persuasif .p2 {
+  font-style: bold;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 445px;
+  height: 40px;
+  font-style:;
+  font-weight:bold;
+  line-height:33px;
+  padding-left:12px;
+  margin-top:-530px;
+  text-align:left;
+}
+.persuasif .p2{
+	width: 280px;
+	margin-top:-25px;
+    margin-left:70px;
+}
+.tombol{
+	padding:15px;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+	margin-top:450px;
+	font-size: 18px;
+    margin-bottom: 450px;
+}
+.tombol:hover{
+	color:white;
+}
+.persuasif .btn-custom {
+  background-color: #0c2241;
+  width: 220px;
+}
+
+/* end persuasif */
+
+/* end Azhar Nadhif */
+
+/* Arul */
+
+.contact-us{
+    width:100%;
+	background-color:#FF883A;
+	padding-bottom:60px;
+	margin-top:-300px;
+    text-align:center;
+}
+.contact-us h1{
+	margin-top: 0px;
+	margin-left:0px;
+	font-size: 45px;
+	padding-top: 50px;
+}
+.contact-us .garis{
+	border-bottom: 3px solid black;
+	width:80px;
+	color: black;
+	height:0;
+	margin-left: 200px;
+	margin-top:20px;
+}
+.contact-us table{
+	font-family: abeezee;
+	font-weight:bold;
+	margin-top: 20px;
+	margin-left: 0px;
+	font-size: 18px;
+}
+.contact-us table .lokasi,
+.contact-us table .email,
+.contact-us table .noHP{
+   margin-left:50px;
+}
+.contact-us table .lokasi{
+	width: 42px;
+}
+.contact-us table .email{
+	width: 30px;
+}
+.contact-us table .noHP{
+	width: 30px;
+}
+
+/* end Arul */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 992px) { 
+
+/* Ferrol Azki */
+body{
+    width:100%;
+	background-color:#FFC058;
+}
+.logo{
+	margin-left: 65px;
+}
+.welcome{
+	background-color:#F9E0B7;
+    margin-top:-32px;
+}
+.text-welcome{
+	font-size:30px;
+	margin-left:90px;
+	font-style: bold;
+	margin-top: 150px;
+}
+.des-text-w{
+	font-size: 18px;
+	margin-left:90px;
+	margin-bottom:100px;
+	font-style: bold;	
+}
+.jelahi-sekarang{
+	margin-left:90px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+}
+.jelahi-sekarang:hover{
+	color:white;
+}
+.btn-custom{
+	background-color:#0C2241;
+	width: 190px;
+}
+.gambar-welcome{
+	position:absolute;
+}
+.kotak{
+	background-color:#E7E7E7;
+	width:350px;
+	height:350px;
+	margin-left: 900px;
+	margin-top:50px;
+	border-radius: 10px;
+}
+.kotak2 img{
+	width:350px;
+	height:350px;
+	margin-top:-310px;
+	margin-left:870px;
+	border-radius: 10px;
+}
+.wave img{
+	width :100%;
+	height:194px;
+	position:absolute;
+	z-index:-1;
+	margin-top:-50px;
+}
+
+
+
+/*  About Us */
+
+.about-us{
+	margin-bottom: 80px;
+}
+.about-us h1{
+	margin-top: 400px;
+	margin-left:100px;
+	font-size: 45px;
+    text-align:left;
+}
+.about-us .garis{
+	border-left: 3px solid black;
+	width:0;
+	color: black;
+	height: 260px;
+	margin-left: 400px;
+	position:absolute;
+	margin-top:-160px;
+}
+.about-us .text-about-us{
+	width: 750px;
+	position: absolute;
+	margin-top: -140px;
+	margin-left: 430px;
+	font-family: abeezee;
+	font-size: 20px;
+	text-align: justify;
+}
+.about-us .btn-custom{
+	background-color:#0C2241;
+	width: 130px;
+}
+.detail-about-us{
+	margin-left:-550px;
+	margin-top:30px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+	
+}
+.detail-about-us:hover{
+	color:white;
+}
+
+/* masalah */
+
+.masalah{
+	font-family: gaegu;
+	margin-top: 150px;
+	margin-bottom: 90px;
+}
+.kopi{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width: 1030px;
+	margin-left:130px;
+	padding-top:20px;
+	padding-bottom:20px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+}
+.kopi img{
+	border-radius:30px;
+	width: 195px;
+	height: 129px;
+	margin-left:80px;
+	margin-top:0;
+}
+.kopi p{
+	position:absolute;
+	margin-left: 360px;
+	font-size:35px;
+	margin-top:-90px;
+    width:700px;
+}
+.fotokopi{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width: 1040px;
+	margin-left:200px;
+	padding-top:40px;
+	padding-bottom:40px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+	margin-top: 60px;
+}
+.fotokopi img{
+	border-radius:30px;
+	width: 195px;
+	height: 129px;
+	margin-left:800px;
+	margin-top:-18px;
+	position:absolute;
+}
+.fotokopi p{
+	margin-left: 0px;
+	font-size:35px;
+	margin-top:20px;
+	margin-left:160px;
+    width: 700px
+}
+.kecewa{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width: 1030px;
+	margin-left:130px;
+	margin-top: 60px;
+	padding-top:30px;
+	padding-bottom:10px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+}
+.kecewa img{
+	border-radius:30px;
+	width: 209px;
+	height: 104px;
+	margin-left:80px;
+	margin-top:15px;
+}
+.kecewa p{
+	margin-left: 360px;
+	font-size:35px;
+	margin-top:-105px;
+	width: 650px;
+}
+
+
+/* PMT */
+
+.pmt{
+	background-color:#FFCF80;
+	padding-top:12px;
+	padding-bottom:40px;
+    text-align:left;    
+}
+.pmt .kotak{
+	background-color:#E5C0A6;
+	width:350px;
+	height:350px;
+	margin-left: 60px;
+	margin-top:50px;
+	border-radius: 10px;
+}
+.pmt img{
+	width:350px;
+	height:350px;
+	margin-top:-310px;
+	margin-left:90px;
+	border-radius: 10px;
+	
+}
+.j-pmt{
+	font-size:28px;
+	margin-top: 85px;
+	margin-left:-60px;
+}
+.text-pmt{
+	 margin-left:-210px;
+	 font-family: abeezee;
+	 font-size:18px;
+	 width: 700px;
+	 margin-top:30px;
+	 text-align:justify;
+}
+.pmt .btn-custom{
+	background-color:#0C2241;
+	width: 130px;
+}
+.detail-pmt{
+	margin-left:-220px;
+	margin-top:30px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+}
+.detail-pmt:hover{
+	color:white;
+}
+
+/* Testimoni */
+
+.testimoni{
+	background-color:#FFB482;
+	text-align:center;
+	padding-bottom: 70px;
+}
+.testimoni h1{
+	font-size:25px;
+	text-align:center;
+	padding-top:60px;
+	margin-bottom:50px;
+}
+.testimoni-1{
+	width:280px;
+	height: 300px;
+	margin-left: 100px;
+	border-radius: 10px;
+	background-color:#FC8334;
+	color: white;
+}
+.default-user{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:10px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+
+/* Testimonial kotak 1 */
+.testimoni-1 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-1 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-1 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+	
+}
+.testimoni-1 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+
+/* end Testimonial kotak 1*/
+
+/* Testimonial kotak 2 */
+.testimoni-2{
+	width:280px;
+	height: 300px;
+	margin-left:25px;
+	border-radius: 10px;
+	background-color:#FF6F11;
+	color: white;
+}
+.default-user-2{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:-65px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+.testimoni-2 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-2 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-2 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+}
+.testimoni-2 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+/* end Testimonial kotak 2 */
+
+/* Testimonial kotak 3 */
+
+.testimoni-3{
+	width:280px;
+	height: 300px;
+	margin-left:-50px;
+	border-radius: 10px;
+	background-color:#FC8334;
+	color: white;
+}
+.default-user-3{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:-140px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+.testimoni-3 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-3 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-3 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+}
+.testimoni-3 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+
+/* end Testimonial kotak 3 */
+
+/* Gelombang akhir */
+
+.end-wave img{
+	width :100%;
+	height:194px;
+	margin-top: 200px;
+}
+.end-wave .kotak{
+	width :100%;
+	height:300px;
+	margin-left:0;
+	margin-top:-1px;
+	border-radius:0;
+	background-color:#F9E0B7;
+}
+
+/* end Gelombang akhir */
+
+
+
+
+/* end Ferrol Azki */
+
+
+/* Azhar Nadhif */
+
+/* testimini kotak 4 */
+.testimoni-4 {
+  width: 280px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-4 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-4 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-4 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-4 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-4 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+/* end testimoni kotak 4 */
+
+/* testimoni kotak 5 */
+
+.testimoni-5 {
+  width: 280px;
+  height: 300px;
+  margin-left: 25px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #ff6f11;
+  color: white;
+}
+.default-user-5 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -65px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-5 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-5 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-5 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-5 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 5 */
+
+/* testimoni kotak 6 */
+
+.testimoni-6 {
+  width: 280px;
+  height: 300px;
+  margin-left: -50px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-6 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -140px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-6 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-6 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-6 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-6 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 6 */
+
+/* testimoni kotak 7 */
+
+.testimoni-7 {
+  width: 280px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-7 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-7 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-7 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-7 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-7 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 7 */
+
+/* testimoni kotak 8 */
+
+.testimoni-8 {
+  width: 280px;
+  height: 300px;
+  margin-left: 25px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #ff6f11;
+  color: white;
+}
+.default-user-8 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -65px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-8 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-8 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-8 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-8 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 8 */
+
+/* testimoni kotak 9 */
+
+.testimoni-9 {
+  width: 280px;
+  height: 300px;
+  margin-left: -50px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-9 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -140px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-9 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-9 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-9 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-9 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 9 */
+
+/* persuasif */
+
+.persuasif{
+	text-align:left;
+}
+.persuasif .hape{
+	margin-top: 110px;
+    width:500px;
+    height:500px;
+}
+
+.persuasif .p1,
+.persuasif .p2 {
+  font-style: bold;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 28px;
+  width: 675px;
+  height: 40px;
+  font-style:;
+  font-weight:bold;
+  line-height:33px;
+  padding-left:12px;
+  text-align:left;
+}
+.persuasif .p1{
+	margin-top: 200px;
+}
+.persuasif .p2{
+	width: 420px;
+	margin-top:-25px;
+    margin-left:0;
+}
+.tombol{
+	padding:15px;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+	margin-top:28px;
+	font-size: 18px;
+    margin-bottom:0;
+}
+.tombol:hover{
+	color:white;
+}
+.persuasif .btn-custom {
+  background-color: #0c2241;
+  width: 220px;
+}
+
+/* end persuasif */
+
+/* end Azhar Nadhif */
+
+/* Arul */
+
+.contact-us{
+	background-color:#FF883A;
+	padding-bottom:60px;
+	margin-top:-300px;
+    text-align:left;
+}
+.contact-us h1{
+	margin-top: 400px;
+	margin-left:100px;
+	font-size: 45px;
+	padding-top: 170px;
+}
+.contact-us .garis{
+	border-left: 3px solid black;
+	width:0;
+	color: black;
+	height: 260px;
+	margin-left: 400px;
+	margin-top:-160px;
+}
+.contact-us table{
+	position:absolute;
+	font-family: abeezee;
+	font-weight:bold;
+	margin-top: -230px;
+	margin-left: 460px;
+	font-size: 20px;
+}
+.contact-us table .lokasi,
+.contact-us table .email,
+.contact-us table .noHP{
+   margin-left:0px;
+}
+.contact-us table .lokasi{
+	width: 52px;
+    margin-left: -5px;
+}
+.contact-us table .email{
+	width: 40px;
+}
+.contact-us table .noHP{
+	width: 40px;
+}
+
+/* end Arul */
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 576px) and (max-width: 1400px){ 
+
+/* Ferrol Azki */
+body{
+    width:100%;
+	background-color:#FFC058;
+}
+.logo{
+	margin-left: 65px;
+}
+.welcome{
+    width:100%;
+	background-color:#F9E0B7;
+    margin-top:-32px;
+}
+.text-welcome{
+	font-size:30px;
+	margin-left:90px;
+	font-style: bold;
+	margin-top: 150px;
+}
+.des-text-w{
+	font-size: 18px;
+	margin-left:90px;
+	margin-bottom:100px;
+	font-style: bold;	
+}
+.jelahi-sekarang{
+	margin-left:90px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+}
+.jelahi-sekarang:hover{
+	color:white;
+}
+.btn-custom{
+	background-color:#0C2241;
+	width: 190px;
+}
+.gambar-welcome{
+	position:absolute;
+}
+.kotak{
+	background-color:#E7E7E7;
+	width:350px;
+	height:350px;
+	margin-left: 900px;
+	margin-top:50px;
+	border-radius: 10px;
+}
+.kotak2 img{
+	width:350px;
+	height:350px;
+	margin-top:-310px;
+	margin-left:870px;
+	border-radius: 10px;
+}
+.wave img{
+	width :100%;
+	height:194px;
+	position:absolute;
+	z-index:-1;
+	margin-top:-50px;
+}
+
+
+
+/*  About Us */
+
+.about-us{
+    width:100%;
+	margin-bottom: 80px;
+}
+.about-us h1{
+	margin-top: 400px;
+	margin-left:100px;
+	font-size: 45px;
+    text-align:left;
+}
+.about-us .garis{
+	border-left: 3px solid black;
+	width:0;
+	color: black;
+	height: 260px;
+	margin-left: 400px;
+	position:absolute;
+	margin-top:-160px;
+}
+.about-us .text-about-us{
+	width: 750px;
+	position: absolute;
+	margin-top: -140px;
+	margin-left: 430px;
+	font-family: abeezee;
+	font-size: 20px;
+	text-align: justify;
+}
+.about-us .btn-custom{
+	background-color:#0C2241;
+	width: 130px;
+}
+.detail-about-us{
+	margin-left:-310px;
+	margin-top:30px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+	
+}
+.detail-about-us:hover{
+	color:white;
+}
+
+/* masalah */
+
+.masalah{
+    width:100%;
+	font-family: gaegu;
+	margin-top: 150px;
+	margin-bottom: 90px;
+}
+.kopi{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width: 1030px;
+	margin-left:130px;
+	padding-top:20px;
+	padding-bottom:20px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+}
+.kopi img{
+	border-radius:30px;
+	width: 195px;
+	height: 129px;
+	margin-left:80px;
+	margin-top:0;
+}
+.kopi p{
+	position:absolute;
+	margin-left: 360px;
+	font-size:35px;
+	margin-top:-90px;
+    width:700px;
+}
+.fotokopi{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width: 1040px;
+	margin-left:200px;
+	padding-top:40px;
+	padding-bottom:40px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+	margin-top: 60px;
+}
+.fotokopi img{
+	border-radius:30px;
+	width: 195px;
+	height: 129px;
+	margin-left:800px;
+	margin-top:-18px;
+	position:absolute;
+}
+.fotokopi p{
+	margin-left: 0px;
+	font-size:35px;
+	margin-top:20px;
+	margin-left:160px;
+    width: 700px
+}
+.kecewa{
+	border-radius:20px;
+	background-color:#FFEC71;
+	width: 1030px;
+	margin-left:130px;
+	margin-top: 60px;
+	padding-top:30px;
+	padding-bottom:10px;
+	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
+}
+.kecewa img{
+	border-radius:30px;
+	width: 209px;
+	height: 104px;
+	margin-left:80px;
+	margin-top:15px;
+}
+.kecewa p{
+	margin-left: 360px;
+	font-size:35px;
+	margin-top:-105px;
+	width: 650px;
+}
+
+
+/* PMT */
+
+.pmt{
+    width:100%;
+	background-color:#FFCF80;
+	padding-top:12px;
+	padding-bottom:40px;
+    text-align:left;    
+}
+.pmt .kotak{
+	background-color:#E5C0A6;
+	width:350px;
+	height:350px;
+	margin-left: 60px;
+	margin-top:50px;
+	border-radius: 10px;
+}
+.pmt img{
+	width:350px;
+	height:350px;
+	margin-top:-310px;
+	margin-left:90px;
+	border-radius: 10px;
+	
+}
+.j-pmt{
+	font-size:28px;
+	margin-top: 85px;
+	margin-left:60px;
+}
+.text-pmt{
+	 margin-left:-100px;
+	 font-family: abeezee;
+	 font-size:18px;
+	 width: 700px;
+	 margin-top:30px;
+	 text-align:justify;
+}
+.pmt .btn-custom{
+	background-color:#0C2241;
+	width: 130px;
+}
+.detail-pmt{
+	margin-left:-120px;
+	margin-top:30px;
+	padding:15px;
+	font-style: bold;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+}
+.detail-pmt:hover{
+	color:white;
+}
+
+/* Testimoni */
+
+.testimoni{
+    width:100%;
+	background-color:#FFB482;
+	text-align:center;
+	padding-bottom: 70px;
+}
+.testimoni h1{
+	font-size:25px;
+	text-align:center;
+	padding-top:60px;
+	margin-bottom:50px;
+}
+
+/* Testimonial kotak 1 */
+.testimoni-1{
+	width:280px;
+	height: 300px;
+	margin-left:50px;
+	border-radius: 10px;
+	background-color:#FC8334;
+	color: white;
+}
+.default-user{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:-5px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+.testimoni-1 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-1 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-1 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+	
+}
+.testimoni-1 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+
+/* end Testimonial kotak 1*/
+
+/* Testimonial kotak 2 */
+.testimoni-2{
+	width:280px;
+	height: 300px;
+	margin-left:25px;
+	border-radius: 10px;
+	background-color:#FF6F11;
+	color: white;
+}
+.default-user-2{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:-35px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+.testimoni-2 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-2 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-2 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+}
+.testimoni-2 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+/* end Testimonial kotak 2 */
+
+/* Testimonial kotak 3 */
+
+.testimoni-3{
+	width:280px;
+	height: 300px;
+	margin-left:0px;
+	border-radius: 10px;
+	background-color:#FC8334;
+	color: white;
+}
+.default-user-3{
+	background-color:white;
+	margin-top:-40px;
+	margin-left:-60px;
+	position:absolute;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+.testimoni-3 h1{
+	margin-top:20px;
+	margin-bottom:85px;
+}
+.testimoni-3 .kutip1{
+	margin-top:-130px;
+	margin-left:-200px;
+}
+.testimoni-3 p{
+	text-align:justify;
+	width: 220px;
+	margin-top: -72px;
+	margin-left: 40px;
+}
+.testimoni-3 .kutip2{
+	transform: rotate(180deg);
+	margin-top:-87px;
+	margin-left: 250px;
+}
+
+/* end Testimonial kotak 3 */
+
+/* Gelombang akhir */
+
+.end-wave img{
+	width :100%;
+	height:194px;
+	margin-top: 200px;
+}
+.end-wave .kotak{
+	width :100%;
+	height:300px;
+	margin-left:0;
+	margin-top:-1px;
+	border-radius:0;
+	background-color:#F9E0B7;
+}
+
+/* end Gelombang akhir */
+
+
+
+
+/* end Ferrol Azki */
+
+
+/* Azhar Nadhif */
+
+/* testimini kotak 4 */
+.testimoni-4 {
+  width: 280px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-4 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -5px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-4 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-4 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-4 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-4 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+/* end testimoni kotak 4 */
+
+/* testimoni kotak 5 */
+
+.testimoni-5 {
+  width: 280px;
+  height: 300px;
+  margin-left: 25px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #ff6f11;
+  color: white;
+}
+.default-user-5 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -35px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-5 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-5 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-5 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-5 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 5 */
+
+/* testimoni kotak 6 */
+
+.testimoni-6 {
+  width: 280px;
+  height: 300px;
+  margin-left: 0px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-6 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -60px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-6 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-6 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-6 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-6 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 6 */
+
+/* testimoni kotak 7 */
+
+.testimoni-7 {
+  width: 280px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-7 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -5px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-7 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-7 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-7 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-7 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 7 */
+
+/* testimoni kotak 8 */
+
+.testimoni-8 {
+  width: 280px;
+  height: 300px;
+  margin-left: 25px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #ff6f11;
+  color: white;
+}
+.default-user-8 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -35px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-8 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-8 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-8 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-8 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 8 */
+
+/* testimoni kotak 9 */
+
+.testimoni-9 {
+  width: 280px;
+  height: 300px;
+  margin-left: 0px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #fc8334;
+  color: white;
+}
+.default-user-9 {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -60px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.testimoni-9 h1 {
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.testimoni-9 .kutip1 {
+  margin-top: -130px;
+  margin-left: -200px;
+}
+.testimoni-9 p {
+  text-align: justify;
+  width: 220px;
+  margin-top: -72px;
+  margin-left: 40px;
+}
+.testimoni-9 .kutip2 {
+  transform: rotate(180deg);
+  margin-top: -87px;
+  margin-left: 250px;
+}
+
+/* end testimoni kotak 9 */
+
+/* persuasif */
+
+.persuasif{
+    width:100%;
+	text-align:left;
+}
+.persuasif .hape{
+	margin-top: 110px;
+    width:500px;
+    height:500px;
+}
+
+.persuasif .p1,
+.persuasif .p2 {
+  font-style: bold;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 28px;
+  width: 675px;
+  height: 40px;
+  font-style:;
+  font-weight:bold;
+  line-height:33px;
+  padding-left:12px;
+  text-align:left;
+  margin-left: 70px;
+}
+.persuasif .p1{
+	margin-top: 200px;
+}
+.persuasif .p2{
+	width: 420px;
+	margin-top:-25px;
+    margin-left:70px;
+}
+.tombol{
+	padding:15px;
+	font-family: abeezee;
+	text-decoration: none;
+	color:white;
+	border-radius:50px;
+	margin-top:28px;
+	font-size: 18px;
+    margin-bottom:0;
+    margin-left: 70px;
+}
+.tombol:hover{
+	color:white;
+}
+.persuasif .btn-custom {
+  background-color: #0c2241;
+  width: 220px;
+}
+
+/* end persuasif */
+
+/* end Azhar Nadhif */
+
+/* Arul */
+
+.contact-us{
+	background-color:#FF883A;
+	padding-bottom:60px;
+	margin-top:-300px;
+    text-align:left;
+    width:100%;
+}
+.contact-us h1{
+	margin-top: 400px;
+	margin-left:100px;
+	font-size: 45px;
+	padding-top: 170px;
+}
+.contact-us .garis{
+	border-left: 3px solid black;
+	width:0;
+	color: black;
+	height: 260px;
+	margin-left: 400px;
+	margin-top:-160px;
+}
+.contact-us table{
+	position:absolute;
+	font-family: abeezee;
+	font-weight:bold;
+	margin-top: -230px;
+	margin-left: 460px;
+	font-size: 20px;
+}
+.contact-us table .lokasi,
+.contact-us table .email,
+.contact-us table .noHP{
+   margin-left:0px;
+}
+.contact-us table .lokasi{
+	width: 52px;
+    margin-left: -5px;
+}
+.contact-us table .email{
+	width: 40px;
+}
+.contact-us table .noHP{
+	width: 40px;
+}
+
+/* end Arul */
+
+}
