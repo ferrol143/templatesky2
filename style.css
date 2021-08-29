@@ -648,6 +648,7 @@ body{
 /* persuasif */
 
 .persuasif{
+    width:100%;
     text-align:center;
 }
 
@@ -673,12 +674,12 @@ body{
   padding-left:12px;
   margin-top:-530px;
   text-align:left;
-  margin-left:-10%;
+  margin-left:-5%;
 }
 .persuasif .p2{
 	width: 345px;
 	margin-top:-23px;
-	margin-left:-10%;
+	margin-left:-5%;
     padding-left:90px;
 }
 .tombol{
@@ -1425,6 +1426,7 @@ body{
   line-height:33px;
   padding-left:12px;
   text-align:left;
+  margin-left:0;
 }
 .persuasif .p1{
 	margin-top: 200px;
@@ -1433,6 +1435,7 @@ body{
 	width: 420px;
 	margin-top:-25px;
     margin-left:0;
+	padding-left:90;
 }
 .tombol{
 	padding:15px;
