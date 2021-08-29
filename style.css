@@ -20,7 +20,7 @@ body{
 	background-color:#FFC058;
 }
 .navbar-brand{
-	margin-left:25%;
+	margin-left:5%;
 }
 .welcome{
 	background-color:#F9E0B7;
@@ -229,7 +229,7 @@ body{
 .text-pmt{
 	 margin-left:7%;
 	 font-family: abeezee;
-	 font-size:10vw;
+	 font-size:5vw;
 	 width: 90%;
 	 margin-top:30px;
 }
