@@ -148,9 +148,9 @@ body{
 }
 .kopi p{
 	margin-left: 0%;
-	font-size:20px;
+	font-size:5vw;
 	margin-top:5%;
-    width: 250px;
+    width: 55vw;
 }
 .fotokopi{
 	border-radius:20px;
@@ -169,9 +169,9 @@ body{
 }
 .fotokopi p{
 	margin-left: 0%;
-	font-size:18px;
+	font-size:5vw;
 	margin-top:5%;
-    width:250px;
+    width:55vw;
 }
 .kecewa{
 	border-radius:20px;
@@ -190,9 +190,9 @@ body{
 }
 .kecewa p{
 	margin-left:0%;
-	font-size:18px;
+	font-size:5vw;
 	margin-top:5%;
-	width: 250px;
+	width: 55vw;
 }
 
 
@@ -449,7 +449,7 @@ body{
 
 .testimoni-5 {
   width:280px;
-	height: 300px;
+  height: 300px;
   margin-left: 14%;
   margin-top: 10px;
   border-radius: 10px;
@@ -655,7 +655,7 @@ body{
 	margin-top: 110px;
     width:473px;
     height:473px;
-    margin-left: -15%;
+    margin-left: -16%;
 }
 
 .persuasif .p1,
@@ -673,11 +673,12 @@ body{
   padding-left:12px;
   margin-top:-530px;
   text-align:left;
+  margin-left:-1%;
 }
 .persuasif .p2{
 	width: 345px;
 	margin-top:-23px;
-	margin-left:0px;
+	margin-left:-1%;
     padding-left:90px;
 }
 .tombol{
