@@ -266,8 +266,8 @@ body{
 	margin-bottom:50px;
 }
 .testimoni-1{
-	width:56vw;
-	height: 60vw;
+	width:70vw;
+	height: 66vw;
 	margin-left:14%;
 	border-radius: 10px;
 	background-color:#FC8334;
@@ -292,9 +292,9 @@ body{
 }
 .testimoni-1 p{
 	text-align:justify;
-	width: 220px;
-	margin-top: -72px;
-	margin-left: 40px;
+	width: 60vw;
+	margin-top: -45px;
+	margin-left:30px;
 	
 }
 .testimoni-1 .kutip2{
