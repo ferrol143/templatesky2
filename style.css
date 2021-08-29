@@ -27,13 +27,13 @@ body{
     margin-top:0px;
 }
 .text-welcome{
-	font-size:4vw;
+	font-size:6vw;
 	margin-left:5%;
 	font-style: bold;
 	margin-top: 17%;
 }
 .des-text-w{
-	font-size: 3vw;
+	font-size: 4vw;
 	margin-left:5%;
 	margin-bottom:21%;
 	font-style: bold;	
@@ -65,7 +65,7 @@ body{
 .kotak2 img{
 	width:55vw;
 	margin-top:-50%;
-    margin-left:15%;
+    margin-left:16%;
 	border-radius: 10px;
 }
 .wave img{
@@ -97,7 +97,7 @@ body{
 	margin-top:5%;
 }
 .about-us .text-about-us{
-	width: 385px;
+	width: 80%;
 	margin-top: 6%;
 	margin-left: 5%;
 	font-family: abeezee;
