@@ -207,17 +207,17 @@ body{
 }
 .pmt .kotak{
 	background-color:#E5C0A6;
-	width:65vw;
-	height:65vw;
+	width:70vw;
+	height:70vw;
 	margin-left: 0px;
 	margin-top:50px;
 	border-radius: 10px;
 }
 .pmt img{
-	width:65vw;
-	height:65vw;
-	margin-top:-75%;
-	margin-left:1%;
+	width:70vw;
+	height:70vw;
+	margin-top:-80%;
+	margin-left:5%;
 	border-radius: 10px;
 	
 }
@@ -227,9 +227,9 @@ body{
 	margin-left:0px;
 }
 .text-pmt{
-	 margin-left:5%;
+	 margin-left:7%;
 	 font-family: abeezee;
-	 font-size:4vw;
+	 font-size:5vw;
 	 width: 90%;
 	 margin-top:30px;
 }
