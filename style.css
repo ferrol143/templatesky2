@@ -17,7 +17,7 @@ Description: Tema ini untuk belajar membuat tema dari nol. Saat ini isinya masih
 
 body{
     width:100%;
-	background-color:red;
+	background-color:#FFC058;
 }
 .navbar-brand{
 	margin-left:5%;
@@ -268,7 +268,7 @@ body{
 .testimoni-1{
 	width:280px;
 	height: 300px;
-	margin-left:100px;
+	margin-left:0px;
 	border-radius: 10px;
 	background-color:#FC8334;
 	color: white;
@@ -309,7 +309,7 @@ body{
 .testimoni-2{
 	width:280px;
 	height: 300px;
-	margin-left:100px;
+	margin-left:0px;
 	border-radius: 10px;
 	background-color:#FF6F11;
 	color: white;
@@ -347,7 +347,7 @@ body{
 .testimoni-3{
 	width:280px;
 	height: 300px;
-	margin-left:100px;
+	margin-left:0px;
 	border-radius: 10px;
 	background-color:#FC8334;
 	color: white;
