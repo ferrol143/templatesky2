@@ -655,7 +655,7 @@ body{
 	margin-top: 110px;
     width:473px;
     height:473px;
-    margin-left: -20%;
+    margin-left: -15%;
 }
 
 .persuasif .p1,
@@ -665,7 +665,7 @@ body{
   color: white;
   border-radius: 10px;
   font-size: 18px;
-  width: 360px;
+  width: 355px;
   height: 40px;
   font-style:;
   font-weight:bold;
@@ -675,7 +675,7 @@ body{
   text-align:left;
 }
 .persuasif .p2{
-	width: 350px;
+	width: 345px;
 	margin-top:-23px;
 	margin-left:0px;
     padding-left:90px;
