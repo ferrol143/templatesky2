@@ -655,7 +655,7 @@ body{
 	margin-top: 110px;
     width:473px;
     height:473px;
-    margin-left: -10px;
+    margin-left: -10%;
 }
 
 .persuasif .p1,
@@ -665,7 +665,7 @@ body{
   color: white;
   border-radius: 10px;
   font-size: 18px;
-  width: 445px;
+  width: 370px;
   height: 40px;
   font-style:;
   font-weight:bold;
@@ -675,9 +675,10 @@ body{
   text-align:left;
 }
 .persuasif .p2{
-	width: 280px;
-	margin-top:-25px;
-    margin-left:70px;
+	width: 360px;
+	margin-top:-23px;
+	margin-left:0px;
+    padding-left:90px;
 }
 .tombol{
 	padding:15px;
