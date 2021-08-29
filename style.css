@@ -655,7 +655,7 @@ body{
 	margin-top: 110px;
     width:473px;
     height:473px;
-    margin-left: -5%;
+    margin-left: -20%;
 }
 
 .persuasif .p1,
@@ -664,21 +664,21 @@ body{
   text-decoration: none;
   color: white;
   border-radius: 10px;
-  font-size: 4vw;
-  width: 400px;
+  font-size: 5vw;
+  width: 500px;
   height: 40px;
   font-weight:bold;
   line-height:33px;
   padding-left:12px;
   margin-top:-530px;
   text-align:left;
-  margin-left: 5%;
+  margin-left: 0%;
 }
 .persuasif .p2{
-	width: 78vw;
+	width: 120vw;
 	margin-top:-23px;
-    margin-left:5%;
-    padding-left:100px;
+    margin-left:0%;
+    padding-left:120px;
 }
 .tombol{
 	padding:15px;
