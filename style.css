@@ -56,16 +56,16 @@ body{
 }
 .kotak{
 	background-color:#E7E7E7;
-	width:65vw;
-	height:65vw;
+	width:70vw;
+	height:70vw;
 	margin: 0 auto;
 	margin-top:10%;
 	border-radius: 10px;
 }
 .kotak2 img{
-	width:65vw;
-	margin-top:-60%;
-    margin-left:10%;
+	width:70vw;
+	margin-top:-65%;
+    margin-left:8%;
 	border-radius: 10px;
 }
 .wave img{
@@ -99,9 +99,9 @@ body{
 .about-us .text-about-us{
 	width: 80%;
 	margin-top: 6%;
-	margin-left: 5%;
+	margin-left: 10%;
 	font-family: abeezee;
-	font-size: 4vw;
+	font-size: 5vw;
 	text-align: center;
 }
 .about-us .btn-custom{
