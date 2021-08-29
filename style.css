@@ -276,7 +276,7 @@ body{
 .default-user{
 	background-color:white;
 	margin-top:-8%;
-	margin-left:-9%;
+	margin-left:-11%;
 	position:absolute;
 	box-shadow: 0 5px 5px rgba(0,0,0,.5);
 }
@@ -317,7 +317,7 @@ body{
 .default-user-2{
 	background-color:white;
     margin-top:-8%; 
-	margin-left:-9%;
+	margin-left:-11%;
 	position:absolute;
 	box-shadow: 0 5px 5px rgba(0,0,0,.5);
 }
@@ -355,7 +355,7 @@ body{
 .default-user-3{
 	background-color:white;
 	margin-top:-8%;
-	margin-left:-9%;
+	margin-left:-11%;
 	position:absolute;
 	box-shadow: 0 5px 5px rgba(0,0,0,.5);
 }
@@ -419,8 +419,8 @@ body{
 }
 .default-user-4 {
   background-color: white;
-  margin-top:-8%;
-  margin-left:-9%;
+  margin-top:2%;
+  margin-left:-11%;
   position: absolute;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -459,7 +459,7 @@ body{
 .default-user-5 {
   background-color: white;
   margin-top:-8%;
-  margin-left:-9%;
+  margin-left:-11%;
   position: absolute;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -499,7 +499,7 @@ body{
 .default-user-6 {
   background-color: white;
   margin-top:-8%;
-  margin-left:-9%;
+  margin-left:-11%;
   position: absolute;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -538,8 +538,8 @@ body{
 }
 .default-user-7 {
   background-color: white;
-  margin-top:-8%;
-  margin-left:-9%;
+  margin-top:2%;
+  margin-left:-11%;
   position: absolute;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -579,7 +579,7 @@ body{
 .default-user-8 {
   background-color: white;
   margin-top:-8%;
-  margin-left:-9%;
+  margin-left:-11%;
   position: absolute;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -619,7 +619,7 @@ body{
 .default-user-9 {
   background-color: white;
   margin-top:-8%;
-  margin-left:-9%;
+  margin-left:-11%;
   position: absolute;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
