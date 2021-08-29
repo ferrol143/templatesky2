@@ -20,20 +20,20 @@ body{
 	background-color:#FFC058;
 }
 .logo{
-	margin-left: 55%;
+	margin-left: 20%;
 }
 .welcome{
 	background-color:#F9E0B7;
-    margin-top:-32px;
+    margin-top:0px;
 }
 .text-welcome{
-	font-size:30px;
+	font-size:6vw;
 	margin-left:5%;
 	font-style: bold;
 	margin-top: 17%;
 }
 .des-text-w{
-	font-size: 18px;
+	font-size: 4vw;
 	margin-left:5%;
 	margin-bottom:21%;
 	font-style: bold;	
@@ -56,16 +56,16 @@ body{
 }
 .kotak{
 	background-color:#E7E7E7;
-	width:270px;
-	height:270px;
-	margin-left: 20%;
+	width:55vw;
+	height:55vw;
+	margin-left: 10%;
 	margin-top:10%;
 	border-radius: 10px;
 }
 .kotak2 img{
-	width:55%;
+	width:55vw;
 	margin-top:-50%;
-	margin-left:15%;
+	margin-left:5%;
 	border-radius: 10px;
 }
 .wave img{
@@ -101,7 +101,7 @@ body{
 	margin-top: 6%;
 	margin-left: 12%;
 	font-family: abeezee;
-	font-size: 20px;
+	font-size: 4vw;
 	text-align: center;
 }
 .about-us .btn-custom{
@@ -136,7 +136,7 @@ body{
 	border-radius:20px;
 	background-color:#FFEC71;
 	width:70%;
-	margin-left:15%;
+	margin-left:5%;
     padding: 10px;
 	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
 }
@@ -147,7 +147,7 @@ body{
 	margin-top:10px;
 }
 .kopi p{
-	margin-left: 10%;
+	margin-left: 0%;
 	font-size:20px;
 	margin-top:5%;
     width: 250px;
@@ -156,7 +156,7 @@ body{
 	border-radius:20px;
 	background-color:#FFEC71;
 	width:70%;
-	margin-left:15%;
+	margin-left:5%;
 	padding:10px;
 	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
 	margin-top: 60px;
@@ -168,7 +168,7 @@ body{
 	margin-top:10px;
 }
 .fotokopi p{
-	margin-left: 10%;
+	margin-left: 0%;
 	font-size:18px;
 	margin-top:5%;
     width:250px;
@@ -177,7 +177,7 @@ body{
 	border-radius:20px;
 	background-color:#FFEC71;
 	width:70%;
-	margin-left:15%;
+	margin-left:5%;
 	margin-top: 60px;
 	padding:10px;
 	box-shadow: 6px 6px 1px rgba(0,0,0,.25) inset;
@@ -189,7 +189,7 @@ body{
 	margin-top:10px;
 }
 .kecewa p{
-	margin-left:10%;
+	margin-left:0%;
 	font-size:18px;
 	margin-top:5%;
 	width: 250px;
@@ -763,7 +763,7 @@ body{
 }
 .welcome{
 	background-color:#F9E0B7;
-    margin-top:-32px;
+    margin-top:0px;
 }
 .text-welcome{
 	font-size:30px;
