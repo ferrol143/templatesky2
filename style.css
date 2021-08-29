@@ -674,12 +674,12 @@ body{
   padding-left:12px;
   margin-top:-530px;
   text-align:left;
-  margin-left:-3%;
+  margin-left:-4%;
 }
 .persuasif .p2{
 	width: 345px;
 	margin-top:-23px;
-	margin-left:-3%;
+	margin-left:-4%;
     padding-left:90px;
 }
 .tombol{
@@ -724,7 +724,7 @@ body{
 	width:80px;
 	color: black;
 	height:0;
-	margin-left: 200px;
+	margin-left:37%;
 	margin-top:20px;
 }
 .contact-us table{
@@ -732,12 +732,12 @@ body{
 	font-weight:bold;
 	margin-top: 20px;
 	margin-left: 0px;
-	font-size: 18px;
+	font-size: 4vw;
 }
 .contact-us table .lokasi,
 .contact-us table .email,
 .contact-us table .noHP{
-   margin-left:50px;
+   margin-left:25px;
 }
 .contact-us table .lokasi{
 	width: 42px;
